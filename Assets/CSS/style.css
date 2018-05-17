@@ -1,0 +1,95 @@
+.page{
+  position: relative;
+  top: 0;
+  padding-top: : 200px;
+  padding-bottom:35px;
+  height: 100%;
+  width: 100%;
+
+}
+#header{
+    position: fixed;
+    z-index: 1;
+    top: 0; left: 0; right: 0;
+    height: 200px;
+    width: 100%;
+
+
+}
+img{
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+}
+ul#menu_horizontal {
+    display: inline-block;
+    height: 25px;
+    vertical-align: middle;
+    list-style-type : none;
+    text-align: center;
+}
+
+ul#menu_horizontal li {
+    display: inline;
+    padding : 0 0.5em;
+    border: 1px black solid;
+}
+.contenu{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 200px; left: 0;
+    right: 0; bottom: 35px;
+    height: auto;
+    color: beige;
+}
+.contenu h1 {
+    text-align: center;
+}
+
+.texte{
+  padding-left: 200px;
+}
+.icon_github{
+  height: 20px;
+  width: auto;
+}
+#list-hobby{
+  margin-left: 10px;
+}
+#list-hobby ul li{
+  list-style: circle inside;
+}
+#form{
+  display: block;
+  margin-left: 10px;
+  color: beige;
+}
+
+#form input, textarea{
+  background-color: inherit;
+  border-radius: 6px;
+  border-color: beige;
+}
+#form textarea{
+  height: 80px;
+}
+#nom, #email, #message{
+  width: 510px;
+}
+#bouton{
+  color: beige;
+  width: 80px;
+}
+.footer {
+  position: fixed;
+  bottom: 0; left: 0;
+  width: 100%;
+  height:35px;
+  padding-top: 5px;
+  font-family: arial;
+  font-size: 10px;
+  color:beige;
+  text-align: center;
+  background: linear-gradient(to right,#2E0700,#0C0700 30%)
+}
